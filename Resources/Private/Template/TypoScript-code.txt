@@ -223,7 +223,7 @@ page.10.marks {
 
   # Outputs the current date in the defined format
   DATE = TEXT
-  DATE.data = date : d.m.Y
+  DATE.stdWrap.data = date : d.m.Y
 
 
   ##############################################
@@ -276,5 +276,5 @@ page.10.marks {
 
   # The marker TITLE outputs the page headline
   TITLE = TEXT
-  TITLE.field = title
+  TITLE.stdWrap.field = title
 }
