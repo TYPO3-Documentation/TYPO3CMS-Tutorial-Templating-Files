@@ -10,14 +10,14 @@
 
 $EM_CONF[$_EXTKEY] = array (
   'title' => 'Templating Tutorial',
-  'description' => 'This document replaces the old templating tutorials like "Modern Template Building". The text is available at https://docs.typo3.org/typo3cms/TemplatingTutorial/.',
-  'category' => 'doc',
-  'version' => '0.7.0',
+  'description' => 'This distribution installs necessary resources for the Templating Tutorial, HTML template files and a basic page tree.',
+  'category' => 'distribution',
+  'version' => '1.0.0',
   'module' => '',
-  'state' => 'beta',
+  'state' => 'stable',
   'uploadfolder' => 0,
   'createDirs' => '',
-  'clearcacheonload' => 0,
+  'clearcacheonload' => true,
   'author' => 'Official Documentation',
   'author_email' => 'documentation@typo3.org',
   'author_company' => '',
@@ -25,7 +25,7 @@ $EM_CONF[$_EXTKEY] = array (
   array (
     'depends' =>
     array (
-      'typo3' => '4.5.0-6.2.99',
+      'typo3' => '7.6.0-7.99.99',
     ),
     'conflicts' =>
     array (
