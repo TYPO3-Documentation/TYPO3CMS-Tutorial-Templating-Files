@@ -396,10 +396,10 @@ input[type=text]:focus, textarea:focus {
 /* Mainnavigation/Topnavigation */
 
 #nav_main a {
-	background: -moz-linear-gradient(center top, #FFA52D, #FF8700) repeat scroll 0 0 transparent;  /* for Mozilla Firefox */
-	background: -ms-linear-gradient(center top, #FFA52D, #FF8700) repeat scroll 0 0 transparent;  /* for IE */
-	background: -o-linear-gradient(center top, #FFA52D, #FF8700) repeat scroll 0 0 transparent;  /* for Opera */
-	background: linear-gradient(center top, #FFA52D, #FF8700) repeat scroll 0 0 transparent;
+	background: -moz-linear-gradient(#FFA52D, #FF8700) repeat scroll 0 0 transparent;  /* for Mozilla Firefox */
+	background: -ms-linear-gradient(#FFA52D, #FF8700) repeat scroll 0 0 transparent;  /* for IE */
+	background: -o-linear-gradient(#FFA52D, #FF8700) repeat scroll 0 0 transparent;  /* for Opera */
+	background: linear-gradient(#FFA52D, #FF8700) repeat scroll 0 0 transparent;
 	border-color: transparent #E97E0D transparent #FFC37D;
 	border-style: solid;
 	border-width: 0 1px;
@@ -416,10 +416,10 @@ input[type=text]:focus, textarea:focus {
 	float: left;        /* Enclosing the floats in all other browsers */
 	border-bottom: 1px #666 solid;
 	line-height: 0px;
-	background: -moz-linear-gradient(center top,  #FFA52D, #FF8700);  /* for Mozilla Firefox */
-	background: -ms-linear-gradient(center top,  #FFA52D, #FF8700);  /* for IE */
-	background: -o-linear-gradient(center top, #FFA52D, #FF8700); /*for Opera */
-	background: linear-gradient(center top, #FFA52D, #FF8700);
+	background: -moz-linear-gradient( #FFA52D, #FF8700);  /* for Mozilla Firefox */
+	background: -ms-linear-gradient( #FFA52D, #FF8700);  /* for IE */
+	background: -o-linear-gradient(#FFA52D, #FF8700); /*for Opera */
+	background: linear-gradient(#FFA52D, #FF8700);
 }
 
 #nav_main ul {
@@ -457,19 +457,19 @@ input[type=text]:focus, textarea:focus {
 	 * Flipped to #FF8700, #FFA52D
 	 * Then in HSV scheme: Reduced the value H (= color, hue) by 7: #FF6B00, #FF8D2E
 	 */
-	background: -moz-linear-gradient(center top, #FF6B00, #FF8D2E) repeat scroll 0 0 transparent; /* for Mozilla Firefox */
-	background: -ms-linear-gradient(center top, #FF6B00, #FF8D2E) repeat scroll 0 0 transparent; /* for IE */
-	background: -o-linear-gradient(center top, #FF6B00, #FF8D2E) repeat scroll 0 0 transparent; /* for Opera */
-	background: linear-gradient(center top, #FF6B00, #FF8D2E) repeat scroll 0 0 transparent;
+	background: -moz-linear-gradient(#FF6B00, #FF8D2E) repeat scroll 0 0 transparent; /* for Mozilla Firefox */
+	background: -ms-linear-gradient(#FF6B00, #FF8D2E) repeat scroll 0 0 transparent; /* for IE */
+	background: -o-linear-gradient(#FF6B00, #FF8D2E) repeat scroll 0 0 transparent; /* for Opera */
+	background: linear-gradient(#FF6B00, #FF8D2E) repeat scroll 0 0 transparent;
 	color: #333;
 	text-decoration: none;
 }
 
 #nav_main ul li#current {
-	background: -moz-linear-gradient(center top, #FF6B00, #FF8D2E) repeat scroll 0 0 transparent; /* for Mozilla Firefox */
-	background: -ms-linear-gradient(center top, #FF6B00, #FF8D2E) repeat scroll 0 0 transparent; /* for IE */
-	background: -o-linear-gradient(center top, #FF6B00, #FF8D2E) repeat scroll 0 0 transparent; /* for Opera */
-	background: linear-gradient(center top, #FF6B00, #FF8D2E) repeat scroll 0 0 transparent;
+	background: -moz-linear-gradient(#FF6B00, #FF8D2E) repeat scroll 0 0 transparent; /* for Mozilla Firefox */
+	background: -ms-linear-gradient(#FF6B00, #FF8D2E) repeat scroll 0 0 transparent; /* for IE */
+	background: -o-linear-gradient(#FF6B00, #FF8D2E) repeat scroll 0 0 transparent; /* for Opera */
+	background: linear-gradient(#FF6B00, #FF8D2E) repeat scroll 0 0 transparent;
 }
 
 #nav_main ul li#current a,
