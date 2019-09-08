@@ -12,7 +12,7 @@ $EM_CONF[$_EXTKEY] = array (
   'title' => 'Templating Tutorial',
   'description' => 'This distribution installs necessary resources for the Templating Tutorial, HTML template files and a basic page tree.',
   'category' => 'distribution',
-  'version' => '1.1.0',
+  'version' => '9.5.0',
   'module' => '',
   'state' => 'stable',
   'uploadfolder' => 0,
@@ -25,7 +25,7 @@ $EM_CONF[$_EXTKEY] = array (
   array (
     'depends' => 
     array (
-      'typo3' => '7.6.0-7.99.99',
+      'typo3' => '9.5.0-9.5.99',
     ),
     'conflicts' => 
     array (
@@ -38,4 +38,3 @@ $EM_CONF[$_EXTKEY] = array (
   'comment' => 'Corrected TypoScript template; added more content to the predefined data.',
 );
 
-?>
