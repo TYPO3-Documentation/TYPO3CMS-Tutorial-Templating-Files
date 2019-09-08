@@ -12,7 +12,7 @@ $EM_CONF[$_EXTKEY] = array (
   'title' => 'Templating Tutorial',
   'description' => 'This distribution installs necessary resources for the Templating Tutorial, HTML template files and a basic page tree.',
   'category' => 'distribution',
-  'version' => '1.1.0',
+  'version' => '8.7.0',
   'module' => '',
   'state' => 'stable',
   'uploadfolder' => 0,
@@ -25,7 +25,7 @@ $EM_CONF[$_EXTKEY] = array (
   array (
     'depends' => 
     array (
-      'typo3' => '7.6.0-7.99.99',
+      'typo3' => '8.7.0-8.7.99',
     ),
     'conflicts' => 
     array (
